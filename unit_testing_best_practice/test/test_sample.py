@@ -1,5 +1,5 @@
 import sys
-sys.path += ['../src']
+sys.path.insert(1, '../src')
 
 from sample import *
 
