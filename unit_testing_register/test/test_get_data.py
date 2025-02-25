@@ -4,6 +4,8 @@
 import io
 import sys
 sys.path +=['../src']
+sys.path.insert(0,'../src')
+os.environ['PATH'] += ':../src'
 
 from get_data import *
 
